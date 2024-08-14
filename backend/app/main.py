@@ -5,10 +5,8 @@ from pydantic import BaseModel
 from typing import List
 from starlette.middleware.cors import CORSMiddleware
 from openpyxl import Workbook
-from io import BytesIO
 
 import shutil
-import pandas as pd
 import os
 
 app = FastAPI()
